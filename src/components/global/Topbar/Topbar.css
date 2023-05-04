@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: #16044a;
+  color: white;
+  box-shadow: 0px 3px 8px 1px black;
+  height: 5rem;
+  z-index: 5;
+}
+
+.logo,
+.v-details {
+  padding: 0 1rem;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.v-details {
+  display: flex;
+  flex-direction: row;
+}
+
+.v-details img {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  border: 2px solid white;
+  color: #eeeee4;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+  background-color: aliceblue;
+}
+
+.v-details .v-name {
+  margin-top: 2rem;
+}

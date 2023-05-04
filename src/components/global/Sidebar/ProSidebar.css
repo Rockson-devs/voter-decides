@@ -1,0 +1,14 @@
+.prosidebar {
+  display: flex;
+  border: 1px solid #eeeee4;
+  border-radius: 3px;
+  margin-top: 0.2vw;
+}
+.sidebar {
+  display: flex;
+  height: 75vh;
+  width: 18vw;
+  background-color: #eeeee4;
+  position: relative;
+  padding-top: 3vw;
+}
